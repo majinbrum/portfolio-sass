@@ -1,0 +1,13 @@
+npm install node-sass
+
+package.json
+{
+  "scripts": {
+    "sass": "node-sass style.scss style.css"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
+
+npm run sass
